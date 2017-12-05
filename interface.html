@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Salary Calculator</title>
+</head>
+
+<body>
+<h1>Salary Calculator</h1>
+<p>Select CSV file for individual tax rate: </p>
+<table id="taxRateOut"></table>
+<input type="file" id="taxRate">
+<button id="btn1" onclick="">Show individual tax rate</button>
+
+<p>Select CSV file for five insurance premium: </p>
+<table id="fiveInsuranceOut"></table>
+<input type="file" id="fiveInsurance">
+<button id="btn2" onclick="">Show five insurance premium</button>
+
+<p>Select CSV file for monthly average wage in this city: </p>
+<table id="averageWageOut"></table>
+<input type="file" id="averageWage">
+<button id="btn3" onclick="">Show monthly average wage in this city</button>
+
+<p>Select CSV file for performance salary standard: </p>
+<table id="standardOut"></table>
+<input type="file" id="standard">
+<button id="btn4" onclick="">Show performance salary standard</button>
+
+<p>Select CSV file for staffing listing: </p>
+<table id="staffListingOut"></table>
+<input type="file" id="staffListing">
+<button id="btn5" onclick="">Show staff listing</button>
+<button id="btnPrint" onclick="">Print salary bill</button>
+
+<p>Enter information to calculate salary bill</p>
+<table>
+    <tr>
+        <td>Name</td>
+        <td>Salary</td>
+        <td>Performance-related Pay</td>
+        <td>Housing Fund Percentage</td>
+    </tr>
+    <tr>
+        <td><input id="inputName"></td>
+        <td><input id="inputSalary"></td>
+        <td><input id="inputPerformance"></td>
+        <td><input id="inputFund"></td>
+    </tr>
+</table>
+<button id="btnCalculate" onclick="">Calculate</button>
+
+<table id="content1"></table>
+<table id="content2"></table>
+
+<script src="calculator.js"></script>
+
+</body>
+</html>
