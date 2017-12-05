@@ -1,4 +1,4 @@
-# Salary_Calculator
+# Salary-Calculator
 a simple salary calculator written by HTML and Javascript         
 <h2>Files</h2>
 <p>Code Assignment -- requirements and testing csv files to upload</p>
