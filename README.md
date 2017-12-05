@@ -1,5 +1,5 @@
 # Salary-Calculator
-a simple salary calculator written by HTML and Javascript         
+a simple salary calculator written by HTML and JavaScript         
 <h2>Files</h2>
 <p>Code Assignment -- requirements and testing csv files to upload</p>
 <p>interface.html & calculator.js -- application files</p>
