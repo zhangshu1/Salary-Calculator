@@ -533,7 +533,7 @@ function calculate(array) {
         content2 += tax;
         content2 += "</td>";
 
-        // after-tex income
+        // after-tax income
         content2 += "<td>";
         content2 += preTax - tax;
         content2 += "</td>";
